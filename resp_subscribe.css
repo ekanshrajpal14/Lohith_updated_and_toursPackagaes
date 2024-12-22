@@ -1,0 +1,405 @@
+@media (max-width:600px) {
+    /*.part .mainsec {*/
+    /*    height: 61vh;*/
+    /*}*/
+
+    /*.part #imgbox {*/
+    /*    clip-path: polygon(77% 0, 100% 0, 100% 100%, 0% 126%);*/
+    /*}*/
+
+    /*.textbox {*/
+    /*    z-index: 1;*/
+    /*    position: relative;*/
+    /*    background: none;*/
+    /*    color: white;*/
+    /*    font-size: 1.1rem;*/
+    /*    letter-spacing: 2px;*/
+    /*    line-height: 2em;*/
+    /*    padding: 3rem;*/
+    /*    height: 100vh;*/
+    /*    margin: 0;*/
+    /*    display: flex;*/
+    /*}*/
+
+    /*.part .textbox {*/
+    /*    width: 73%;*/
+        /* height: 80%; */
+
+    /*    h2 {*/
+    /*        font-size: 12vw;*/
+    /*    }*/
+
+    /*    h6 {*/
+    /*        font-size: 3vw;*/
+    /*    }*/
+
+    /*    h1 {*/
+    /*        font-size: 6.5vw;*/
+    /*    }*/
+
+    /*    p {*/
+    /*        font-size: 2.4vw;*/
+    /*        line-height: 15px;*/
+    /*        width: 78%;*/
+    /*    }*/
+
+    /*    li {*/
+    /*        font-size: 2.5vw;*/
+    /*        letter-spacing: 1px;*/
+    /*        width: max-content;*/
+    /*        padding-right: 3vw;*/
+    /*        border-radius: 10px;*/
+    /*        font-weight: 800;*/
+    /*        color: #000000;*/
+    /*        background-color: #ffffffb0;*/
+    /*    }*/
+
+    /*    a {*/
+    /*        font-size: 4vw;*/
+    /*        padding: 1vw 3vw;*/
+    /*        height: 5vh;*/
+
+    /*    }*/
+    /*}*/
+    
+    
+      .part .mainsec {
+        height: 61vh;
+    }
+
+    .part #imgbox {
+        width: 100%;
+
+        clip-path: none;
+
+        /* opacity: 0.7; */
+        h1 {
+            display: none;
+        }
+    }
+
+    .part .textbox {
+        height: 100%;
+        background-color: #0b0b0ba5;
+        position: relative;
+        width: 100%;
+        /* height: 75%; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 1vw;
+        color: #ffffff;
+        padding-left: 0vw;
+        z-index: 9;
+        padding-top: 5vw;
+
+        h2 {
+            display: none;
+            position: absolute;
+            top: 21%;
+            /* font-family: gilroy; */
+            letter-spacing: 3px;
+            font-size: 18vw;
+
+            opacity: 0.4;
+
+            /* color: rgb(165, 27, 27); */
+        }
+
+        h6 {
+            font-size: 3vw;
+            text-transform: uppercase;
+            font-weight: 500;
+            margin-bottom: 2vw;
+            letter-spacing: 3px;
+            color: rgba(255, 255, 255, 0.825);
+            /* margin-bottom: 1vw; */
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 10vw;
+            font-weight: 700;
+            opacity: 0.9;
+            /* margin-top: 3vw; */
+            /*font-family: gilroy;*/
+            margin-bottom: 4.5vw;
+        }
+
+        li {
+            font-size: 3vw;
+            letter-spacing: 1px;
+            width: max-content;
+            padding-top: 0vw;
+            padding-bottom: 0vw;
+            padding-right: 5vw;
+            padding-left: 3vw;
+            border-radius: 10px;
+
+            display: flex;
+            align-items: center;
+            font-weight: 500;
+            color: #ffffff;
+            /* background-color: #ffffffb0; */
+        }
+
+        li::marker {
+            display: none;
+        }
+
+        a {
+            margin-top: 6vw;
+            font-size: 3.5vw;
+            font-weight: 500;
+            padding: 3vw 6.5vw;
+            /* font-family: gilroy-bold; */
+            /* height: 5vh; */
+
+        }
+
+    }
+
+    .animated_car_mobile {
+        display: block;
+        background-image: url(./UpdatedImages/animated.png);
+        width: 45vw;
+        height: 19vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 0;
+        bottom: -10%;
+        z-index: 99;
+    }
+
+    .left_subs .common_part_left h1 {
+        font-size: 6.8vw;
+        line-height: 35px;
+    }
+
+
+
+    .left_subs .part_two_why_sub {
+        height: 60%;
+        width: 80%;
+    }
+
+    .left_subs .part_one_why_sub {
+        height: 15%;
+    }
+
+    .left_subs .part_three_why_sub button {
+        padding: 1.6vw 3vw;
+        font-size: 3vw;
+    }
+
+    .left_subs {
+        width: 50%;
+        height: 82vh;
+        padding-top: 20vw;
+        overflow: visible;
+        gap: 0;
+    }
+
+    .left_subs .part_two_why_sub p {
+        font-size: 2.6vw;
+    }
+
+    .right_subs {
+        z-index: 99;
+        position: relative;
+
+    }
+
+    .subs_data_box p {
+        font-size: 4vw;
+    }
+
+    .subs_data_box {
+        padding: 14px;
+        border-radius: 21px;
+        width: 43vw;
+    }
+
+    .subs_data_box_two {
+        right: 5%;
+        top: 19%;
+    }
+
+
+
+    .subs_data_box_four {
+        left: 25%;
+        width: 40vw;
+        bottom: 12%;
+    }
+
+    .subs_data_box_three {
+        right: 10%;
+        top: 40%;
+    }
+
+    .subs_data_box_one {
+        width: 36vw;
+        height: 32vw;
+        background-color: #5FAB23;
+        border-radius: 23px;
+        display: flex;
+        padding-top: 4vw;
+        padding-left: 5vw;
+        color: #ffff;
+        font-size: 3.5vw;
+        top: -18%;
+        position: relative;
+        left: 17%;
+    }
+
+    .image_value_div {
+        width: 86px;
+        height: 70px
+    }
+
+    .part .maintwo {
+        min-height: 134vh;
+        padding-top: 15vw;
+
+
+        & .maintwobrand {
+            flex-wrap: wrap;
+            border-radius: 7px;
+
+            & div {
+                img {
+                    transform: scale(0.4);
+                }
+
+                height: 12vh;
+                width: 30vw;
+
+                border: none;
+            }
+        }
+
+        h1 {
+            font-size: 6.5vw;
+        }
+
+        p {
+            font-size: 3vw;
+        }
+    }
+
+    .maintwobrand {
+        width: 100%;
+        height: 9%;
+        overflow: hidden;
+    }
+
+    .part .maintwobtm {
+        margin-top: 15vw;
+        height: auto;
+        padding-bottom: 5vw;
+
+        p {
+            font-size: 3.1vw;
+        }
+
+        h1 {
+            font-size: 5.5vw;
+        }
+
+        .main2btmdiv {
+            width: 95%;
+            height: auto;
+            gap: 5vh;
+            flex-direction: column;
+        }
+
+        & .A-divs {
+
+            width: 59%;
+            height: 31%;
+
+            div {
+                font-size: 9vw;
+                width: 70px;
+                height: 70px;
+            }
+
+            h2 {
+                font-size: 3.5vw;
+            }
+
+            p {
+                font-size: 2.4vw;
+            }
+        }
+    }
+
+    .description {
+        h1 {
+            font-size: 6.5vw;
+            font-weight: 700;
+            margin-bottom: 1vw;
+        }
+
+        p {
+            font-size: 3vw;
+            line-height: 5vw;
+        }
+    }
+
+    .car_type_subscribe h1 {
+        font-size: 7vw;
+    }
+
+    .card_clickme {
+        width: 80vw;
+        height: 22vh;
+    }
+
+    .car_image_holder {
+        width: 100%;
+        height: 100%;
+    }
+
+    .car_image_holder p {
+        font-size: 2.5vw;
+    }
+
+    .left_subs .part_three_why_sub a {
+        font-size: 3vw;
+        padding: 1.6vw 3vw;
+        margin-top: 10vw;
+    }
+
+    .container_cate_clickme {
+        padding: 3vw;
+    }
+
+    .car_type_subscribe {
+        width: 100%;
+        min-height: 180vh;
+    }
+
+    .card_clickme_dets h1 {
+        font-size: 7vw;
+    }
+
+    .container_cate_clickme h6 {
+        font-size: 3.5vw;
+    }
+
+    .terms_conditions {
+        font-size: 3vw;
+    }
+
+    .car_card_clickme {
+        gap: 50px;
+    }
+
+    .container_cate_clickme i {
+        font-size: 4vw;
+    }
+}

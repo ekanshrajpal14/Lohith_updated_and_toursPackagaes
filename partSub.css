@@ -1,0 +1,472 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+
+}
+
+.part {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    font-family: circular;
+}
+
+.temp {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+.description{
+    width: 100%;
+    padding: 0 8vw ;
+    padding-top: 4vw;
+    h1{
+        font-size: 3vw;
+        font-weight: 700;
+        margin-bottom: 1vw;
+        span{
+            color: #f5b754;
+        }
+    }
+    p{
+        font-size: 1.2vw;
+        opacity: .8;
+        line-height: 30px;
+    }
+}
+.page_subscribe {
+    width: 100%;
+    height: 250vh;
+    /* background-color: aqua; */
+    /* overflow: hidden; */
+    /* position: relative; */
+}
+
+.page_1_why {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    /* overflow: hidden; */
+    /* background-color: #fff; */
+}
+
+.left_subs {
+    width: 50%;
+    height: 100vh;
+    padding-left: 7vw;
+    display: flex;
+    align-items: start;
+    top: 0;
+    background-color: #fff;
+    gap: 40px;
+    padding-top: 10vw;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    position: sticky;
+    top: 0%;
+}
+
+.left_subs .part_one_why_sub {
+    height: 20%;
+}
+
+.left_subs .common_part_left {
+    width: 75%;
+}
+
+.left_subs .common_part_left h1 {
+    font-size: 4vw;
+    font-weight: 700;
+    line-height: 65px;
+    color: #000;
+}
+
+.left_subs .part_two_why_sub {
+    height: 37%;
+    display: flex;
+    width: 75%;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.left_subs .part_two_why_sub p {
+    font-size: 1.2vw;
+    font-family: gilroy;
+}
+
+.left_subs .part_three_why_sub a {
+    padding: .6vw 1vw;
+    border: none;
+    background-color: #f5b754e7;
+    color: #05158e;
+    font-weight: 600;
+    box-shadow: 7px 7px 1px 0px;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 1.1vw;
+}
+
+.right_subs {
+    padding-top: 10vw;
+    width: 50%;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.1s;
+    height: 100%;
+    overflow: hidden;
+}
+
+.container_right_subs {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.right_part_one_subs {
+    width: 100%;
+    height: 25%;
+    position: relative;
+}
+
+.subs_data_box_one {
+    width: 20vw;
+    height: 18vw;
+    background-color: #5FAB23;
+    border-radius: 40px;
+    display: flex;
+    padding-top: 2vw;
+    padding-left: 3vw;
+    color: #ffff;
+    font-size: 1.5vw;
+    position: relative;
+    left: 10%;
+}
+
+.image_value_div {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    bottom: -20%;
+    left: -10%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(./UpdatedImages/starfinal.png);
+    
+    
+}
+
+.subs_data_box {
+    padding: 30px;
+    border-radius: 40px;
+    width: 250px;
+    background: rgb(236, 245, 229);
+    position: absolute;
+}
+
+.subs_data_box_two {
+    right: 10%;
+    top: 0;
+}
+
+.subs_data_box_three {
+    right: 10%;
+    top: 37%;
+    width: 220px;
+}
+
+.subs_data_box_four {
+    left: 30%;
+    width: 220px;
+    bottom: 16%;
+}
+
+.subs_data_box p {
+    font-size: 1.4vw;
+    font-family: Eina03-Regular;
+}
+
+.right_part_one_subs_two .subs_data_box_one {
+    background-color: #9543DE;
+}
+
+.right_part_one_subs_two .subs_data_box {
+    background-color: #F2E8FB;
+
+}
+
+.right_part_one_subs_three .subs_data_box_one {
+    background-color: #F89A0D;
+}
+
+.right_part_one_subs_three .subs_data_box {
+    background-color: #FEF3E2;
+}
+
+.right_part_one_subs_three .subs_data_box_three {
+    top: 45%;
+}
+
+.subscribe_page_road {
+    width: 100%;
+    overflow: hidden;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.road_map {
+    width: 100%;
+    height: 100%;
+}
+
+.road_map_container {
+    width: 100%;
+    height: 80vh;
+}
+
+.road_map_heading {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 1vw 8vw;
+}
+
+.road_map_heading h1 {
+    font-size: 3vw;
+    font-weight: 600;
+    color: #788088;
+}
+
+.road_map_heading h1 span {
+    color: #f5b754;
+    font-weight: 800;
+}
+
+.road_map_data_cont {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    padding-left: 1vw;
+}
+
+.road_map_image {
+    width: 90%;
+    /* margin-top: -5vw; */
+    height: 81vh;
+    background-image: url(UpdatedImages/road_map_final.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-color: #9543DE; */
+    position: relative;
+}
+
+.car_moving_road_map {
+    width: 20vw;
+    height: 25vh;
+    position: absolute;
+    right: 5%;
+    bottom: 28.5%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: rotateY(-180deg);
+    background-image: url(Original/cars_driving.gif);
+}
+
+.checkpoint1 {
+    position: absolute;
+    top: 28%;
+    left: 6%;
+}
+
+.checkpoint3 {
+    position: absolute;
+    top: 28%;
+    left: 59%;
+}
+
+.checkpoint2 {
+    position: absolute;
+    top: 41%;
+    left: 32.8%;
+}
+
+.checkpoints ul {
+    padding-left: 2vw;
+    padding-top: .8vw;
+
+}
+
+.car_type_subscribe {
+    width: 100%;
+    min-height: 165vh;
+    padding-bottom: 3vw;
+    background-color: #e4e4e4;
+    display: flex;
+    background: linear-gradient(#fff, #e1eeffbd, #fff);
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.car_type_subscribe h1{
+    font-size: 3vw;
+    font-family: gilroy-bold;
+}
+
+.car_type_subscribe h1 span {
+    color: #f5b754;
+}
+
+.car_card_clickme {
+    width: 80%;
+    /* background-color: #05158e; */
+    height: auto;
+    gap: 70px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container_cate_clickme{
+    padding: 1vw;
+    box-shadow: 0px 0px 10px rgb(91, 91, 91);
+    border-radius: 3px  ;
+    background-color: #ffffff;
+}
+.container_cate_clickme h6{
+    font-size: 1.2vw;
+    /* letter-spacing: 1px; */
+    color: #05158e;
+}
+.container_cate_clickme i{
+    font-size: 1.6vw;
+    margin-right: .5vw;
+    color: #f5b754;
+}
+.terms_conditions{
+    position: absolute;
+    right: 0;
+    top: 10%;
+    font-size: 1vw;
+    color: #05158e;
+}
+.card_clickme_dets{
+    padding-top: .8vw;
+    width: 100%;
+    position: relative;
+}
+.card_clickme_dets h1 {
+    color: #03093a;
+    margin-bottom: .5vw;
+    margin-left: .1vw;
+    font-size: 2.2vw;
+
+}
+.card_clickme {
+    width: 30vw;
+    height: 40vh;
+    /* color: #fff; */
+    overflow: hidden;
+    border-radius: 3px;
+    
+    /* box-shadow: 0px 0px 10px 1px #3b3b3bcb; */
+}
+
+.car_image_holder {
+    width: 30vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-position: center;
+    background-size: cover;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) .4s;
+}
+
+.car_image_holder3 {
+    background-image: url(./UpdatedImages/car_type1.avif);
+
+}
+
+.car_image_holder2 {
+    background-image: url(./UpdatedImages/car_type2.avif);
+}
+
+.car_image_holder1 {
+    background-image: url(./UpdatedImages/car_type3.jpg);
+}
+
+.car_image_holder4 {
+    background-image: url(./UpdatedImages/luxury_subscribe.jpg);
+}
+
+.car_image_holder:hover {
+    transform: scale(1.03);
+}
+
+
+
+
+@media (max-width:600px) {
+
+    .subscribe_page_road {
+        height: 118vh;
+    }
+
+    .road_map_container {
+        height: 110vh;
+    }
+
+    .road_map_image {
+        width: 90%;
+        height: 100vh;
+        background-image: url(UpdatedImages/road_map_resp.png);
+    }
+
+    .checkpoint1 {
+        top: 7%;
+        left: 40%;
+    }
+
+    .checkpoint2 {
+        top: 32%;
+        left: 2.8%;
+    }
+
+    .checkpoint3 {
+        top: 55%;
+        left: 41%;
+    }
+
+    .car_moving_road_map {
+        right: 43.5%;
+        bottom: 2.5%;
+        width: 44vw;
+        height: 25vh;
+    }
+
+    .road_map_heading h1 {
+        font-size: 9vw;
+    }
+
+    .checkpoints h2 {
+        font-size: 5.5vw;
+    }
+
+    .checkpoints li {
+        font-size: 4vw;
+    }
+
+
+}

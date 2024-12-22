@@ -1,0 +1,143 @@
+@media screen and (max-width:600px) {
+
+    .contact_cover_pic {
+        height: 60vh;
+    }
+
+    .contact_text_div h1 {
+        font-size: 15vw;
+    }
+
+    .contact_text_div {
+        width: 100%;
+    }
+
+    .contact_details {
+        width: 100%;
+        height: 49vh;
+    }
+
+    .contact_text_div p {
+        font-size: 4vw;
+    }
+
+    .contact_overlay {
+        width: 50vw;
+    }
+
+    .page2_about {
+        height: 120vh;
+    }
+
+    .about_container {
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+    }
+
+    .about_left {
+        width: 100%;
+        height: 50%;
+    }
+
+    .about_left_image {
+        width: 68vw;
+        height: 44vh;
+    }
+
+    .about_right {
+        width: 100%;
+        height: 42%;
+    }
+
+    .about_right_text h6 {
+        font-size: 2.5vw;
+    }
+
+    .about_right_text h1 {
+        font-size: 5vw;
+    }
+
+    .about_right_text p {
+        font-size: 2.5vw;
+    }
+
+    .readmore_about {
+        padding: 1.5vw 2.3vw;
+        font-size: 2.5vw;
+    }
+
+    .count1 h1 {
+        font-size: 4vw;
+    }
+
+    .about_counters h6 {
+        font-size: 2.3vw;
+    }
+
+    .about_counters {
+        width: 80%;
+    }
+
+
+
+
+
+
+    /* section next */
+
+    .page3_design_cmn {
+        width: 75%;
+    }
+
+    .page3_design {
+        flex-direction: column;
+    }
+
+    .counter_one_box {
+        span {
+            font-size: 6vw;
+        }
+
+        h3 {
+            font-size: 3vw;
+        }
+    }
+
+    /* nect */
+    .page3_page4_inter {
+        padding: 10vw;
+        height: 40vh;
+    }
+
+    .page3_page4_inter h1 {
+        font-size: 6vw;
+    }
+
+    .page3_page4_inter p {
+        font-size: 3vw;
+        margin-top: 3vw;
+    }
+
+    .page3_page4_inter button {
+        font-size: 3vw;
+        padding: 2vw 4vw;
+    }
+
+    /* next */
+    .page4_about {
+        height: 40vh;
+        margin-bottom: 5vw;
+    }
+
+    .page4_heading>h1 {
+        font-size: 6vw;
+    }
+
+    .page4_content p {
+        font-size: 3vw;
+    }
+
+    .page4_content {
+        width: 90%;
+    }
+}

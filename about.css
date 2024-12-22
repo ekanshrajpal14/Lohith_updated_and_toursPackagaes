@@ -1,0 +1,220 @@
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.about_page{
+    width: 100%;
+    height: 90vh;
+    /* background-color: #211f1f; */
+    background-color: #081b29;
+    background-color: #fff;
+    /* background-image: url(./images/bbg2.jpg); */
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+}
+.left_about{
+    width:55vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0 9vw;
+    flex-direction: column;
+}
+.left_about h6{
+    margin-bottom: 1vw;
+    letter-spacing: 6px;
+    color: #000;
+}
+.left_about h1{
+    font-size: 2.7vw;
+    margin-bottom: 2vw;
+    color: #000000;
+}
+.left_about h1 span{
+    color: #F5B754;
+}
+.left_about #para_about p{
+    margin-bottom: 2vw;
+    line-height: 1.9vw;
+    font-size: 1vw;
+    color: rgb(94, 94, 94);
+}
+.left_about #sports p{
+    font-size: 1vw;
+    color: rgb(94, 94, 94);
+}
+.left_about #sports i{
+    color: #081b29;
+}
+.left_about #sports{
+    display: flex;
+    margin-bottom: 1vw;
+    align-items: center;
+    gap: 10px;
+}
+.left_about .circle{
+    width: 40px;
+    height: 40px;
+     background-color: rgba(75, 75, 75, 0.274);
+     background-color: #f5b75496;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#read_more{
+    /* margin-top: 1vw; */
+    width: 15vw;
+    position: relative;
+    /* background-color: #c73636; */
+    height: 12vh;
+}
+#read_more a{
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(0%,-50%);
+  padding: 1.2vw 2.3vw;
+  border-radius: 50px;
+  font-size: 1vw;
+  background-color:#F5B754;
+  transition: cubic-bezier(0.19, 1, 0.22, 1) .4s;
+  color: #000;
+}
+#read_more a:hover{
+    top: 45%;
+}
+.right_about {
+    width: 45vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.right_about .image{
+    width: 30vw;
+    height: 70vh;
+}
+.right_about .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* section{
+    width: 100%;
+    height: 200vh;
+} */
+.animation_no1{
+    width: 100%;
+    height: 20vh;
+    background-color: #F5B754;
+}
+.ani_cover_div{
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    position: relative;
+}
+.ani_text{
+    display: flex;
+    width: 200vw;
+    /* left: -70%; */
+    flex-wrap: nowrap;
+align-items: center;
+    gap: 50px;
+    position: absolute;
+}
+#col{
+    color: transparent;
+    /* color: white; */
+        /* font-size: 40px; */
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: black;
+}
+.ani_text h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5vw;
+}
+.ani_cover_div img{
+    width: 100px;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+#box2left {
+    width: 50%;
+    height: 100%;
+    /* background-color: antiquewhite; */
+    padding-top: 5vw;
+    padding-left: 6vw;
+    display: flex;
+    gap: 1.5vw;
+    position: relative;
+    /* justify-content: space-between; */
+}
+
+#box2leftimg1 {
+    width: 45%;
+    height: 70%;
+    overflow: hidden;
+    background-color: #bdbd24;
+}
+
+#box2leftimg2 {
+    width: 35%;
+    height: 50%;
+    overflow: hidden;
+    background-color: #a3a353;
+}
+
+#box2leftimg1>img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    object-fit: cover;
+    object-position: center;
+}
+
+#box2leftimg2>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+
+    object-position: center;
+}
+
+#box2leftimg1>img:hover {
+    scale: 1.2;
+}
+
+#box2leftimg2>img:hover {
+    scale: 1.2;
+}
+
+#box2leftcont {
+    width: 42%;
+    height: 25%;
+    top: 60%;
+    right: 15%;
+    color: rgb(121, 115, 115);
+    position: absolute;
+    box-shadow: 5px 5px 5px gray;
+    padding: 2vw 2vw;
+    background-color: #f4f4f4;
+}

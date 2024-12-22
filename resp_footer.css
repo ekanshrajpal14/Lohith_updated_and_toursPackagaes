@@ -1,0 +1,133 @@
+@media screen and (max-width:600px) {
+
+    /* footer */
+    .copyright {
+        height: 0;
+    }
+
+    #footertop {
+        width: 95%;
+        height: 27%
+    }
+
+    #footertop h1 {
+        width: 50%;
+        text-align: center;
+        font-size: 4.5vw;
+    }
+
+    #footertop>p {
+        width: 80%;
+        font-size: 3vw;
+        text-align: center;
+    }
+
+    #ftrtopbox>button {
+        width: 30px;
+        height: 30px;
+
+        i {
+            font-size: 3.4vw;
+        }
+    }
+
+    #ftrtopbox>a>div>h6 {
+        font-size: 2vw;
+    }
+
+    #ftrtopbox>a>div>h1 {
+        font-size: 1.7vw;
+        width: 100%;
+        word-wrap: break-word;
+    }
+
+    #footertopdets {
+        width: 96%;
+    }
+
+    #ftrcontentbox1_logo>h1 {
+        font-size: 5vw;
+    }
+
+    .ftrcontent {
+        flex-direction: column;
+        height: 87%;
+    }
+
+    #ftrcontentbox1 {
+        /* margin-left: 6vw; */
+        width: 88%;
+        overflow: visible;
+    }
+
+    #ftrimplinkbox {
+        width: 88%;
+    }
+
+    #footerbtminr {
+        justify-content: flex-end;
+    }
+
+    #address_box {
+        width: 86%;
+        overflow: visible;
+    }
+
+    #ftrcontentbox1>p {
+        font-size: 2.5vw;
+        line-height: 2.5vw;
+    }
+
+    #ftrcontentbox1>h1 {
+        font-size: 3.6vw;
+    }
+
+    #ftrimplinkbox {
+        height: 57%;
+        border-left: none;
+    }
+
+    #ftrimplinkbox>h1 {
+        font-size: 3.7vw;
+    }
+
+    #linkbox>a {
+        font-size: 2.5vw;
+    }
+
+    #address_box>div>a {
+        width: 35px;
+        height: 35px;
+    }
+
+    #address_box>div>a i {
+        font-size: 3vw;
+    }
+
+    #address_box>h1 {
+        font-size: 3.7vw;
+    }
+
+    #address_box>h4 {
+        font-size: 2.3vw;
+    }
+
+    #address_box>a {
+        font-size: 2.1vw;
+    }
+
+    .copyright h6 {
+        font-size: 2.7vw;
+    }
+
+    .copyright {
+        flex-direction: column-reverse;
+        height: 5vh;
+        justify-content: space-evenly;
+    }
+
+    .footer {
+        height: 100vh;
+        overflow: hidden;
+    }
+}

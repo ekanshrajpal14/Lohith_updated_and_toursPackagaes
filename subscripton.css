@@ -1,0 +1,315 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+@font-face {
+    font-family: banana;
+    src: url("./fonts/banana-grotesk-regular.ttf");
+}
+
+@font-face {
+    font-family: circular;
+    src: url("./fonts/CircularSp-Book-4eaffdf96f4c6f984686e93d5d9cb325.ttf");
+}
+
+@font-face {
+    font-family: banana-semi;
+    src: url("./fonts/banana-grotesk-semibold.ttf");
+}
+
+@font-face {
+    font-family: banana-extrabold;
+    src: url("./fonts/banana-grotesk-extrabold.ttf");
+}
+
+@font-face {
+    font-family: cako;
+    src: url("./fonts/cako-regular.ttf");
+}
+
+@font-face {
+    font-family: cako-regular;
+    src: url("./fonts/cako-regular-italic.ttf");
+}
+
+@font-face {
+    font-family: Eina03-SemiBold;
+    src: url("./fonts/Eina03-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: Eina03-Bold;
+    src: url("./fonts/Eina03-Bold.ttf");
+}
+
+@font-face {
+    font-family: Eina03-Regular;
+    src: url("fonts/Eina03-Regular.ttf");
+}
+@font-face {
+    font-family: gilroy-semi;
+ src: url("./fonts/Gilroy-Semibold.ttf");
+}
+@font-face {
+    font-family: gilroy;
+    src: url("./fonts/Gilroy-Regular.ttf");
+}
+@font-face {
+    font-family: gilroy-bold;
+    src: url("./fonts/Gilroy-Bold.ttf");
+}
+.part .mainsec {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.part #imgbox {
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    right: 0%;
+    background-image: url('https://images.unsplash.com/photo-1593055357429-62eaf3b259cc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(67% 0, 100% 0, 100% 100%, 0% 100%);
+
+    h1 {
+        position: absolute;
+        float: inline-end;
+        color: #f5b754;
+        right: 5%;
+        font-family: gilroy-bold;
+        bottom: 5%;
+        /* color: #ff9d00; */
+        font-size: 2.2vw;
+        opacity: 0.8;
+        letter-spacing: 2px;
+        font-weight: 500;
+    }
+}
+
+.part .textbox {
+    position: relative;
+    width: 50%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    color: #000;
+    padding-left: 5vw;
+    z-index: 9;
+    padding-top: 7vw;
+
+    h2 {
+        position: absolute;
+        top: 0%;
+        font-family: gilroy-bold;
+        letter-spacing: 3px;
+        font-size: 10vw;
+        opacity: 0.1;
+        color: rgb(130, 130, 131);
+    }
+
+    h6 {
+        font-size: 1vw;
+        text-transform: uppercase;
+        font-weight: 500;
+        letter-spacing: 1.5px;
+        color: rgba(0, 0, 128, 0.825);
+        /* margin-bottom: 1vw; */
+    }
+
+    h1 {
+        font-size: 3.5vw;
+        font-weight: 700;
+        opacity: 0.9;
+        font-family: gilroy-bold;
+        margin-bottom: 0.5vw;
+    }
+
+    li {
+        font-size: 1.15vw;
+        width: 75%;
+        opacity: 0.8;
+        font-family:gilroy ;
+        margin-bottom: 1vw;
+    }
+
+    a {
+        margin-top: 1vw;
+        width: fit-content;
+        height: fit-content;
+        padding: 0.8vw 2.5vw;
+        background-color: #f5b754;
+        color: rgb(0, 11, 81);
+        text-decoration: none;
+        border-radius: 10px;
+        font-weight: 500;
+        transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.8s;
+        letter-spacing: 0.2px;
+    }
+
+    a:hover {
+        background-color: #010f4e;
+        color: #eaf1f3;
+        box-shadow: 5px 5px 0px #f5b754;
+    }
+}
+
+.part .maintwo {
+    border-top: 1px solid whitesmoke;
+    width: 100%;
+    min-height: 140vh;
+    padding-top: 2vw;
+    background-color: #fbfbfb;
+
+    .maintwobrand {
+        width: 90%;
+        height: 26vh;
+        background-color: #ffffff;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5vw;
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        box-shadow: 0px 1px 10px rgb(186, 181, 181);
+
+        div {
+            width: 10%;
+            height: 60%;
+            border-radius: 20px;
+            display: flex;
+            border: 1px solid rgb(225, 207, 207);
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            position: relative;
+
+            img {
+                transform: scale(0.5);
+            }
+
+            
+        }
+    }
+    h1{
+        text-align: center;
+        font-size: 3vw;
+        font-family: gilroy-bold;
+        font-weight: 700;
+        span{
+            color: #f5b754;
+        }
+        
+    }
+    p{
+        font-size: 1.3vw;
+        font-family: gilroy;
+        margin-top: 1vw;
+        text-align: center;
+    }
+}
+
+.part .maintwobtm {
+    width: 100%;
+    height: 80vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 1vw;
+
+    h1 {
+        font-size: 3vw;
+        font-weight: 700;
+        font-family: gilroy-bold;
+    }
+
+    p {
+        font-size: 1.3vw;
+        width: 70%;
+        font-family: gilroy;
+        margin-bottom: 3.2vw;
+    }
+
+    .main2btmdiv {
+        width: 70%;
+        height: 70%;
+        /* background-color: #512e2e; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .A-divs {
+        width: 28%;
+        height: 80%;
+        background-color: #ffffff;
+        text-align: center;
+        display: flex;
+        gap: 1vw;
+        padding-top: 1.5vw;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+        border: 1px solid #c9cacb;
+        flex-direction: column;
+        border-top-left-radius: 20%;
+        box-shadow: 5px 5px 5px rgb(189, 189, 189);
+
+        div {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            border: 2px solid #f5b754;
+            color: #f5b754;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2vw;
+            /* background-color: firebrick; */
+        }
+
+        h2 {
+            font-weight: 600;
+            opacity: 0.9;
+            font-size: 1.5vw;
+        }
+
+        p {
+            opacity: 0.8;
+            font-size: 1.1vw;
+            width: 90%;
+        }
+    }
+
+    .A-divs:hover {
+        background-color: #010f4e;
+        color: white;
+        /* transform: scale(1.1); */
+
+
+    }
+}
+
+.animated_car_mobile{
+    display: none;
+}

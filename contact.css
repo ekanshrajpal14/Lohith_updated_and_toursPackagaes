@@ -1,0 +1,363 @@
+.contact {
+    width: 100%;
+    height: 120vh;
+    overflow: hidden;
+    background-color: #eaeaea;
+}
+
+.contact_cover_pic {
+    width: 100%;
+    height: 80vh;
+    position: relative;
+
+}
+
+.contact_image_div {
+    width: 100%;
+    height: 100%;
+}
+
+.contact_image_div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.contact_overlay {
+    width: 40vw;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.489);
+    position: absolute;
+    transform: skew(-15deg) translate(-50%, 0);
+    left: 50%;
+    top: 0;
+}
+
+.contact_text_div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.contact_text_div h1 {
+    color: #fff;
+    font-size: 5vw;
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 200;
+    letter-spacing: 2px;
+    font-style: normal;
+}
+
+.contact_text_div p {
+    font-size: 12px;
+    line-height: 10px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    color: #f5b754;
+    margin-bottom: 7px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.contact_text_div h1 span {
+    color: #f5b754;
+}
+
+.contact_details {
+    width: 100%;
+    height: 40vh;
+}
+
+.details_page_contact {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.four_details_box {
+    width: 85%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    top: -36%;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.details_box {
+    width: 17vw;
+    height: auto;
+    background-color: #fff;
+    display: flex;
+    padding: 1vw;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    border-radius: 10px;
+    transition: .4s;
+    overflow: hidden;
+}
+
+
+.details_box:hover {
+    background-color: #f5b754;
+    margin-bottom: 20px;
+}
+
+.details_box .icon_present {
+    width: 100%;
+    height: 16vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.details_box div i {
+    font-size: 4vw;
+    color: #f5b754;
+    transition: .4s;
+}
+
+.details_box:hover .icon_contact {
+    font-size: 4vw;
+    color: hsl(0, 0%, 0%);
+}
+
+.details_box .icon_holder {
+    text-align: center;
+    position: relative;
+    z-index: 9;
+    width: 100%;
+    min-height: 16vh;
+}
+
+.details_box h1 {
+    font-size: 1.5vw;
+
+}
+
+.details_box a {
+    font-size: 1vw;
+    color: #000;
+}
+
+
+.details_box .position_mail {
+    position: absolute;
+    bottom: -12%;
+    font-size: 10vw;
+    color: #eaeaea;
+    opacity: .5;
+    right: -7%;
+
+}
+
+
+
+
+/* section 1 */
+
+/* section1 */
+
+.page1 {
+    width: 100%;
+    height: 100vh;
+    background-color: #eaeaea;
+}
+
+.page1 .part1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+}
+
+.page1 .left {
+    width: 50vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.page1 .table {
+    width: 35vw;
+    height: auto;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.left h1 span {
+    color: #ff9d00;
+}
+
+.name_email {
+    display: flex;
+    gap: 20px;
+
+}
+
+.number_type {
+    display: flex;
+    gap: 20px;
+}
+
+.page1 .table .form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw;
+    gap: 40px;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.table input {
+    padding: 1vw;
+    width: 15vw;
+    background: none;
+    background-color: #eaeaea;
+    border: none;
+    color: black;
+    font-weight: 100;
+    border-radius: 30px;
+    font-family: eina03-semibold;
+    transition: .2s;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #fff;
+}
+
+input::placeholder {
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: #656565;
+}
+
+input:focus {
+    outline: none;
+}
+
+.btn_form {
+    padding: 1.3vw 1vw;
+    font-size: 1vw;
+    border: none;
+    font-family: eina03-semibold;
+    cursor: pointer;
+    background-color: #f5b754;
+    border-radius: 4vw;
+}
+
+select {
+    font-family: eina03-semibold;
+    width: 15vw;
+    background-color: transparent;
+    color: #656565;
+    font-size: 1vw;
+    padding: 1vw;
+    position: relative;
+    border: none;
+    font-weight: 100;
+    padding-right: 2vw;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='rgba(101,101,101,1)'%3E%3Cpath d='M11.9999 13.1714L16.9497 8.22168L18.3639 9.63589L11.9999 15.9999L5.63599 9.63589L7.0502 8.22168L11.9999 13.1714Z'%3E%3C/path%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right .7em top 50%, 0 0;
+    background-size: 20px 20px;
+    cursor: pointer;
+    background-color: #eaeaea;
+    border-radius: 30px;
+    appearance: none;
+    transition: .2s;
+    -webkit-appearance: none;
+}
+
+input:hover {
+    background-color: #d4d4d4;
+}
+
+
+select:focus {
+    outline: none;
+}
+
+option {
+    background-color: #eaeaea;
+    outline: none;
+    border: none;
+
+}
+
+option:focus {
+    outline: none;
+    background-color: #fff;
+}
+
+select:hover {
+    background-color: #d4d4d4;
+}
+
+textarea {
+    max-width: 100%;
+    margin-bottom: 15px;
+    padding: 18.5px 20px;
+    height: auto;
+    background-color: #eaeaea;
+    width: 100%;
+    font-family: eina03-semibold;
+    font-size: 1vw;
+    color: #000000;
+    border-radius: 30px;
+    resize: vertical;
+    max-height: 50vh;
+    border: none;
+
+}
+
+textarea:focus {
+    border: none;
+    outline: none;
+}
+
+
+.page1 .right {
+    width: 50vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.page1 .right div {
+    width: 34vw;
+    height: 70%;
+    padding-top: 2vw;
+    overflow: hidden;
+
+}
+
+.page1 .right div iframe {
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+/* changes in footer */
+
+
+
+/* importants */
+
+.main .footer{
+    background-color: #eaeaea !important;
+}
