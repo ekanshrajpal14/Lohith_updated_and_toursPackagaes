@@ -229,3 +229,95 @@
     align-items: center;
     justify-content: space-evenly;
 }
+
+
+@media screen and (min-width: 756px) and (max-width: 1024px) and (orientation: portrait) {
+    .carsinfo {
+        width: 28vw;
+    }
+
+    .category {
+        text-transform: capitalize;
+    }
+
+    .carinforight {
+
+        height: 20vh;
+    }
+
+    .carinfocont {
+        width: 100%;
+        height: auto;
+        gap: .8vw;
+        position: relative;
+        padding: 0 1.2vw;
+        display: flex;
+        padding-bottom: .6vw;
+        flex-direction: column;
+
+        h1 {
+            font-size: 2vw;
+
+        }
+
+
+
+        .TnC {
+            top: 30%;
+            font-size: 1.2vw;
+        }
+
+        div {
+            display: flex;
+            gap: .7vw;
+        }
+
+
+
+
+        div>button {
+            font-size: 1.2vw;
+
+        }
+
+
+
+
+        .price p {
+            font-size: 2vw;
+        }
+
+        .price h1 {
+
+            font-size: 2vw;
+        }
+
+        .time {
+            font-size: 1.5vw !important;
+
+        }
+
+        a {
+            color: white;
+            width: fit-content;
+            font-size: 1.7vw;
+            padding: 0.6vw 1.2vw;
+            width: fit-content;
+            background: none;
+            border: none;
+            border-radius: 10px;
+            text-decoration: none;
+            background-color: rgb(7, 45, 126);
+            transition: cubic-bezier(0.19, 1, 0.22, 1) 1s;
+
+        }
+
+        a:hover {
+            color: #050505;
+            background-color: #f5b754;
+            box-shadow: 5px 5px 1px rgb(7, 45, 126);
+
+        }
+    }
+
+}

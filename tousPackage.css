@@ -223,7 +223,8 @@ body {
             color: #f5b754;
         }
     }
-    .all_tour_packages{
+
+    .all_tour_packages {
         padding: 40px 0;
     }
 
@@ -306,7 +307,7 @@ body {
                 width: fit-content;
                 background: none;
                 border: none;
-                text-wrap:nowrap;
+                text-wrap: nowrap;
                 border-radius: 10px;
                 text-decoration: none;
                 background-color: rgb(7, 45, 126);
@@ -324,6 +325,101 @@ body {
     }
 
 
+}
+
+
+@media screen and (min-width:768px) and (max-width:1024px) and (orientation: portrait) {
+    .tourPackages {
+        padding: 0;
+        min-height: 72vh;
+        justify-content: space-between;
+    }
+
+    .left_tour {
+        padding: 10px;
+        width: 50%;
+    }
+
+    .right_tour {
+        width: 48%;
+    }
+
+    .btn a {
+        font-size: 16px;
+        text-wrap: nowrap;
+    }
+
+    .btn_layer {
+        width: 19vw;
+        height: 5vh;
+    }
+
+    .left_tour_content {
+        h1 {
+            font-size: 55px;
+        }
+    }
+
+    .right_tour_content {
+        .right_tour_box1 {
+            width: 170px;
+            height: 170px;
+        }
+    }
+
+    .h2_LOHITH {
+        left: 60%;
+    }
+
+    .h3_LUXURY {
+        top: 70%;
+        left: 60%;
+    }
+
+    .image_placeholder {
+        clip-path: polygon(0 70%, 0% 100%, 101% 100%);
+        background-position: -90px 300px;
+    }
+
+    .tourPackages_two {
+        .all_tour_packages {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .tour_box_1 {
+            position: relative;
+        }
+
+        .tourName {
+            position: absolute;
+            width: 50%;
+            top: 24px;
+            left: 300px;
+        }
+
+        .tour_box_content {
+            flex-direction: column;
+            align-items: start;
+            .content_text{
+                padding-top: 10px;
+                width: 100%;
+            }
+            .tous_details{
+                flex-wrap: wrap;
+                gap: 10px 60px;
+                justify-content: space-between;
+            }
+            .tour_book a{
+                font-size: 16px;
+            }
+        }
+
+        li {
+            text-wrap: nowrap;
+        }
+    }
 }
 
 
@@ -398,7 +494,7 @@ body {
     }
 
     .h3_LUXURY {
-        top:65%;
+        top: 65%;
         left: 15%;
         font-size: 17vw;
     }
@@ -406,9 +502,10 @@ body {
 
 @media (max-width: 650px) and (orientation: portrait) {
     .tourPackages_two {
-        h1{
+        h1 {
             font-size: 40px;
         }
+
         .all_tour_packages {
             display: flex;
             flex-direction: column;
